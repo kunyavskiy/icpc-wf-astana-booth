@@ -1,3 +1,4 @@
+// https://open.kattis.com/problems/turningred
 private fun readInts() = readln().split(" ").map { it.toInt() }
 private fun no() = println("impossible")
 fun main() {

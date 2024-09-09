@@ -1,3 +1,4 @@
+// https://open.kattis.com/problems/riddleofthesphinx
 class Query(val a: Int, val b: Int, val c: Int) {
     val d = run {
         println("$a $b $c")

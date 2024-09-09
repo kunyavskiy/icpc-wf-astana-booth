@@ -1,3 +1,4 @@
+// https://open.kattis.com/problems/jetlag
 fun main() {
    val n = readln().toInt()
    val times = buildList {
