@@ -15,7 +15,7 @@ fun main() {
         Query(1, 1, 1),
         Query(1, 2, 3),
     )
-    val (a, b, c, d) = qs.map { it.d }
+    val (a, b, c, d, _) = qs.map { it.d }
     fun test(x: Int, y: Int, z: Int): String? {
         return "$x $y $z".takeUnless { qs.count { it.check(x, y, z) } >= 4 }
     }
